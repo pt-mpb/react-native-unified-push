@@ -36,14 +36,9 @@ RCT_EXPORT_METHOD(init:(NSDictionary *)details successCallback:(RCTResponseSende
         successCallback(@"UPS registration worked");
         
     } failure:^(NSError *error) {
-        errorCallback(@"UPS registration Error: %@", error);
+        errorCallback((@"UPS registration Error: %@", error));
     }];
 
 }
 
 @end
-
-
-
-
-
