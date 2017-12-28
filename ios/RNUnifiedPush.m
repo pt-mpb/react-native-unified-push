@@ -1,5 +1,6 @@
 #import "RNUnifiedPush.h"
-#import <AeroGearPush/AeroGearPush-Swift.h>
+#import <React/RCTConvert.h>
+#import <AeroGearPush/AeroGearPush.h>
 
 @implementation RNUnifiedPush
 
@@ -16,15 +17,22 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     curDeviceToken = deviceToken;
 }
 
+- (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [AGPushAnalytics sendMetricsWhenAppLaunched:launchOptions];
+    return YES;
+}
+
+- (void) application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler {
+    [AGPushAnalytics sendMetricsWhenAppAwoken:application.applicationState userInfo:userInfo];
+}
+
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(init:(NSDictionary *)details successCallback:(RCTResponseSenderBlock)successCallback errorCallback:(RCTResponseSenderBlock)errorCallback)
 {
-    DeviceRegistration *registration =
-    [[DeviceRegistration alloc] initWithServerURL:
-     [NSURL URLWithString:[RCTConvert NSString:details[@"url"]]]];
+    AGDeviceRegistration *registration = [[AGDeviceRegistration alloc] initWithServerURL:[NSURL URLWithString:[RCTConvert NSString:details[@"url"]]]];
     
-    [registration registerWithClientInfo:^(id clientInfo) {
+    [registration registerWithClientInfo:^(id <AGClientDeviceInformation> clientInfo) {
         
         // apply the token, to identify this device
         [clientInfo setDeviceToken:curDeviceToken];
@@ -32,11 +40,17 @@ RCT_EXPORT_METHOD(init:(NSDictionary *)details successCallback:(RCTResponseSende
         [clientInfo setVariantID:[RCTConvert NSString:details[@"variantId"]]];
         [clientInfo setVariantSecret:[RCTConvert NSString:details[@"secret"]]];
         
+        UIDevice *currentDevice = [UIDevice currentDevice];
+        
+        [clientInfo setOperatingSystem:[currentDevice systemName]];
+        [clientInfo setOsVersion:[currentDevice systemVersion]];
+        [clientInfo setDeviceType:[currentDevice model]];
+        
     } success:^() {
-        successCallback(@"UPS registration worked");
+        successCallback([NSArray arrayWithObjects: @"UPS registration worked", nil]);
         
     } failure:^(NSError *error) {
-        errorCallback((@"UPS registration Error: %@", error));
+        errorCallback([NSArray arrayWithObjects:(@"UPS registration Error: %@", error), nil]);
     }];
 
 }

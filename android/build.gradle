@@ -27,13 +27,18 @@ android {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
+    maven {
+        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+        url "$rootDir/../node_modules/react-native/android"
+    }
 }
 
 dependencies {
+    compile 'com.facebook.react:react-native:+'
     compile 'org.jboss.aerogear:aerogear-android-core:3.0.0'
     compile 'org.jboss.aerogear:aerogear-android-pipe:3.0.0'
     compile 'org.jboss.aerogear:aerogear-android-push:4.0.1'
-    compile 'com.facebook.react:react-native:+'
 }
 

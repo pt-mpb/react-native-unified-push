@@ -7,9 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85F002CC1EC60885009EEF1A /* AeroGearPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F002CB1EC60885009EEF1A /* AeroGearPush.framework */; };
+		50D264BE879DEEAE882CEB33 /* libPods-RNUnifiedPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4F4A002C08BCC5D014064E /* libPods-RNUnifiedPush.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RNUnifiedPush.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNUnifiedPush.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4177BA1FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		2D4177BC1FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		2D4177BE1FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		2D4177C01FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		2D4177C21FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		2D4177C41FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		2D4177C61FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		2D4177C81FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		2D4177CA1FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		2D4177CC1FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		2D4177CE1FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		2D4177D01FF54473009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		2D4177D31FF54769009D90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -25,7 +119,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNUnifiedPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNUnifiedPush.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		85F002CB1EC60885009EEF1A /* AeroGearPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AeroGearPush.framework; sourceTree = "<group>"; };
+		1A4F4A002C08BCC5D014064E /* libPods-RNUnifiedPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNUnifiedPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4177A81FF4216B009D90D0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D4177AB1FF54473009D90D0 /* React.xcodeproj */ = {isa = PBXFileReference; explicitFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../../../campaignapp/node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		9E501B00078F871FFF727DBD /* Pods-RNUnifiedPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUnifiedPush.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNUnifiedPush/Pods-RNUnifiedPush.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E20CA0FD1F725CF962DF35 /* Pods-RNUnifiedPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNUnifiedPush.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNUnifiedPush/Pods-RNUnifiedPush.release.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNUnifiedPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUnifiedPush.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNUnifiedPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUnifiedPush.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F002CC1EC60885009EEF1A /* AeroGearPush.framework in Frameworks */,
+				50D264BE879DEEAE882CEB33 /* libPods-RNUnifiedPush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,22 +148,61 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2D4177A91FF543A3009D90D0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2D4177AB1FF54473009D90D0 /* React.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		2D4177AC1FF54473009D90D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4177BB1FF54473009D90D0 /* libReact.a */,
+				2D4177BD1FF54473009D90D0 /* libReact.a */,
+				2D4177BF1FF54473009D90D0 /* libyoga.a */,
+				2D4177C11FF54473009D90D0 /* libyoga.a */,
+				2D4177C31FF54473009D90D0 /* libcxxreact.a */,
+				2D4177C51FF54473009D90D0 /* libcxxreact.a */,
+				2D4177C71FF54473009D90D0 /* libjschelpers.a */,
+				2D4177C91FF54473009D90D0 /* libjschelpers.a */,
+				2D4177CB1FF54473009D90D0 /* libthird-party.a */,
+				2D4177CD1FF54473009D90D0 /* libthird-party.a */,
+				2D4177CF1FF54473009D90D0 /* libdouble-conversion.a */,
+				2D4177D11FF54473009D90D0 /* libdouble-conversion.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				2D4177A81FF4216B009D90D0 /* Podfile */,
 				B3E7B5881CC2AC0600A0062D /* RNUnifiedPush.h */,
 				B3E7B5891CC2AC0600A0062D /* RNUnifiedPush.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				2D4177A91FF543A3009D90D0 /* Libraries */,
 				85F002CA1EC60885009EEF1A /* Frameworks */,
+				F87973661021E7877014AC21 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		85F002CA1EC60885009EEF1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				85F002CB1EC60885009EEF1A /* AeroGearPush.framework */,
+				1A4F4A002C08BCC5D014064E /* libPods-RNUnifiedPush.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F87973661021E7877014AC21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E501B00078F871FFF727DBD /* Pods-RNUnifiedPush.debug.xcconfig */,
+				B0E20CA0FD1F725CF962DF35 /* Pods-RNUnifiedPush.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,13 +212,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNUnifiedPush" */;
 			buildPhases = (
+				792FD70C0A5EC3FE176C8B15 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
+				77B6BD146E42BB6695611E50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2D4177D41FF54769009D90D0 /* PBXTargetDependency */,
 			);
 			name = RNUnifiedPush;
 			productName = RCTDataManager;
@@ -112,12 +252,141 @@
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2D4177AC1FF54473009D90D0 /* Products */;
+					ProjectRef = 2D4177AB1FF54473009D90D0 /* React.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNUnifiedPush */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2D4177BB1FF54473009D90D0 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 2D4177BA1FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177BD1FF54473009D90D0 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 2D4177BC1FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177BF1FF54473009D90D0 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 2D4177BE1FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177C11FF54473009D90D0 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 2D4177C01FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177C31FF54473009D90D0 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 2D4177C21FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177C51FF54473009D90D0 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 2D4177C41FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177C71FF54473009D90D0 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 2D4177C61FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177C91FF54473009D90D0 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 2D4177C81FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177CB1FF54473009D90D0 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 2D4177CA1FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177CD1FF54473009D90D0 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 2D4177CC1FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177CF1FF54473009D90D0 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 2D4177CE1FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D4177D11FF54473009D90D0 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 2D4177D01FF54473009D90D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77B6BD146E42BB6695611E50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNUnifiedPush/Pods-RNUnifiedPush-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792FD70C0A5EC3FE176C8B15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNUnifiedPush-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -129,6 +398,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4177D41FF54769009D90D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = 2D4177D31FF54769009D90D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		58B511ED1A9E6C8500147676 /* Debug */ = {
@@ -164,7 +441,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -198,7 +476,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -207,6 +486,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E501B00078F871FFF727DBD /* Pods-RNUnifiedPush.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -217,6 +497,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../campaignapp/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../campaignapp/node_modules/react-native/Libraries/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -227,6 +509,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E20CA0FD1F725CF962DF35 /* Pods-RNUnifiedPush.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -237,6 +520,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../campaignapp/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../campaignapp/node_modules/react-native/Libraries/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";

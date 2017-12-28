@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3A38AA3B59ED67CF7EC361E26B2CC052AC32F450",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3A38AA3B59ED67CF7EC361E26B2CC052AC32F450" : 9223372036854775807,
+    "0862D6B528F31FAF22A9AC1E57D2F00DC600DD93" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D49A9FBB-08ED-450F-9E9D-FB07EBAA8FAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3A38AA3B59ED67CF7EC361E26B2CC052AC32F450" : "react-native-unified-push\/",
+    "0862D6B528F31FAF22A9AC1E57D2F00DC600DD93" : "..\/campaignapp"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RNUnifiedPush",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RNUnifiedPush.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/skrey-software\/campaignapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0862D6B528F31FAF22A9AC1E57D2F00DC600DD93"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pt-mpb\/react-native-unified-push.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A38AA3B59ED67CF7EC361E26B2CC052AC32F450"
+    }
+  ]
+}

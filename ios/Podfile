@@ -1,0 +1,5 @@
+project 'RNUnifiedPush.xcodeproj'
+
+target 'RNUnifiedPush' do
+    pod 'AeroGearPush'
+end
